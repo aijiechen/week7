@@ -14,7 +14,7 @@ Time spent: **12** hours spent in total
   - [X] GIF Walkthrough: 
   ![cxx2](https://user-images.githubusercontent.com/21352483/32157258-c828aac8-bd18-11e7-98f8-95bfca270e1c.gif)
   - [X] Steps to recreate: 
-    GO to create a new post and view new post, and uder this post insert code on the commend.
+    - GO to create a new post and view new post, and uder this post insert code on the commend.
   - [X] Affected source code:
     - [Link 1](https://cedricvb.be/post/wordpress-stored-xss-vulnerability-4-1-2/)
 1. (Required) Vulnerability Name or ID 3.7-4.4.1 - Local URIs Server Side Request Forgery (SSRF)
@@ -25,12 +25,9 @@ Time spent: **12** hours spent in total
   - [X] GIF Walkthrough: 
   ![3](https://user-images.githubusercontent.com/21352483/32157144-0cdef54c-bd18-11e7-9133-6a96a2ab57a1.gif)
   - [X] Steps to recreate: 
-    Victim is logged into Wordpress.
-    Victim visits bad site with a content of
-    <img src="//myWordpress.com/wp-admin/press-this.php?u=htto://0.0.0.0:8080&url-scan-submit=Scan"/>
-    Victim sends a unwanted request to their server requesting a internal server address to be hit.
-    Server sends get request to 0.0.0.0:8080
-    Servers private 127.0.0.1 answers back.
+    - Victim is logged into Wordpress.
+    - Victim sends a unwanted request to their server requesting a internal server address to be hit.
+    - Server sends get request to 0.0.0.0:8080
   - [X] Affected source code:
     - [Link 1](https://hackerone.com/reports/110801)
 1. (Required) Vulnerability Name or ID 2.5-4.6 - Authenticated Stored Cross-Site Scripting via Image Filename
