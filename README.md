@@ -35,15 +35,16 @@ Time spent: **12** hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://hackerone.com/reports/110801)
 1. (Required) Vulnerability Name or ID 2.5-4.6 - Authenticated Stored Cross-Site Scripting via Image Filename
-  - [ ] Summary: 
+  - [X] Summary: 
     - Vulnerability types:Cross-Site Scripting
     - Tested in version:4.0
     - Fixed in version: 4.0.13
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [X] GIF Walkthrough:
+    ![image](https://user-images.githubusercontent.com/21352483/32157093-a22ea1d4-bd17-11e7-8032-0365992474e7.gif)
+  - [X] Steps to recreate: 
       add a new post
       insert a image with file name cengizhansahinsumofpwn<img src=a onerror=alert(document.cookie)>.jpg
-  - [ ] Affected source code:
+  - [X] Affected source code:
     - [Link 1](https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_vulnerability_in_wordpress_due_to_unsafe_processing_of_file_names.html)
     
 1. (Required) Vulnerability Name or ID 4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
