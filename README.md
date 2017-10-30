@@ -24,10 +24,11 @@ Time spent: **12** hours spent in total
     - Tested in version:4.0
     - Fixed in version: 4.0.10
   - [ ] GIF Walkthrough: 
+  ![3](https://user-images.githubusercontent.com/21352483/32157144-0cdef54c-bd18-11e7-9133-6a96a2ab57a1.gif)
   - [ ] Steps to recreate: 
-    
     Victim is logged into Wordpress.
-    Victim visits bad site with a content of`<img src="//myWordpress.com/wp-admin/press-this.php?u=htto://0.0.0.0:8080&url-scan-submit=Scan" />
+    Victim visits bad site with a content of
+    <img src="//myWordpress.com/wp-admin/press-this.php?u=htto://0.0.0.0:8080&url-scan-submit=Scan"/>
     Victim sends a unwanted request to their server requesting a internal server address to be hit.
     Server sends get request to 0.0.0.0:8080
     Servers private 127.0.0.1 answers back.
@@ -77,7 +78,7 @@ Describe any challenges encountered while doing the work
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Aijie Chen]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
